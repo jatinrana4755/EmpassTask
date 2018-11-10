@@ -1,0 +1,183 @@
+.color{
+    background: linear-gradient(45deg, #3665b5 0%, #26a1ff );
+    position: absolute;
+    height: 100%;
+	width: 100vw;
+	overflow-x:hidden;
+    
+}
+.success{
+    border-color:orange ;
+
+    font-weight: 600;
+}
+
+.success:hover {
+    background: linear-gradient(45deg, #3665b5 0%, #26a1ff );
+    
+    color: white;
+}
+.relate{
+    min-height: 80vh;
+    width: 90vw;
+    top: 74px;
+    left: 66px;
+    background-color: white;
+
+    position: absolute;
+    border-radius: 8px;
+	overflow: hidden;
+	-webkit-box-shadow: 0 5px 26px 0 #e0e5ea;
+	box-shadow: 0 5px 26px 0 #e0e5ea
+  
+
+}
+.style{
+	padding-top: 60px;
+color: orange;
+padding-left: 53px;
+}
+.para{
+	padding-left: 57px;
+    font-weight: 650;
+    font-size: 20px;
+    padding-top: 9px;
+}
+.any{
+	padding-left: 53px;
+    padding-top: 26px;
+}
+.des{
+	position: absolute;
+    top: 380px;
+    right: 547px;
+    width: 132px;
+    border-radius: 1.4vw;
+    background: linear-gradient(45deg, #3665b5 0%, #26a1ff );
+}
+.des-one{
+	top: 380px;
+    left: 690px;
+    background: linear-gradient(45deg, #3665b5 0%, #26a1ff );    
+    border-radius: 1.4vw;
+    width: 132px;
+    position: absolute;
+}.des-two{
+	top: 430px;
+    left: 620px;
+      background: linear-gradient(45deg, #3665b5 0%, #26a1ff );    
+      border-radius: 1.4vw;
+      width: 132px;
+      position: absolute;
+}
+.wagon{
+	width: 25vw;
+	position:absolute;
+      top: 30px;
+      left: 820px;
+}
+
+#submit{
+   
+	background: linear-gradient(45deg, #3665b5 0%, #26a1ff );    
+    border-radius: 1.4vw;
+    width: 132px;
+	position: absolute;
+	left: 523px;
+    top: 20px;
+	
+}
+.orange{
+	color:orange;
+}
+
+@media screen and (max-width: 480px){
+	.color{
+		background: linear-gradient(45deg, #3665b5 0%, #26a1ff );
+		position: absolute;
+		height: 100%;
+		width: 100vw;
+
+		
+	}
+	.style{
+		padding-top: 28px;
+    color: orange;
+    padding-left: 5px;
+    font-size: 27px;
+	}
+	.relate{
+		height: 350px;
+    left: 21px;
+    background-color: white;
+    width: 87vw;
+    top: 71px;
+	
+		position: absolute;
+		border-radius: 8px;
+		overflow: hidden;
+		-webkit-box-shadow: 0 5px 26px 0 #e0e5ea;
+		box-shadow: 0 5px 26px 0 #e0e5ea
+	  
+	}
+	.para{
+		padding-left: 10px;
+    font-weight: 650;
+    font-size: 17px;
+    padding-top: 6px;
+	}
+	.any{
+	padding-left: 2px;
+	/* padding-top: 18px; */
+	padding-top: 2px;
+
+	}
+	.des{
+		position: absolute;
+		top: 428px;
+
+    right: 152px;
+    width: 90px;
+		border-radius: 1.4vw;
+		background: linear-gradient(45deg, #3665b5 0%, #26a1ff );
+	}
+	.des-one{
+		top: 428px;
+
+    left: 165px;
+		background: linear-gradient(45deg, #3665b5 0%, #26a1ff );    
+		border-radius: 1.4vw;
+		width: 90px;
+		position: absolute;
+	}.des-two{
+		top: 471px;
+		left: 120px;
+		  background: linear-gradient(45deg, #3665b5 0%, #26a1ff );    
+		  border-radius: 1.4vw;
+		  width:90px;
+		  position: absolute;
+	}
+	
+.wagon{
+	width: 82vw;
+    position: absolute;
+    top: 8px;
+    left: 9px;
+}
+
+#submit{
+   
+	background: linear-gradient(45deg, #3665b5 0%, #26a1ff );    
+    border-radius: 1.4vw;
+    width: 132px;
+	position: absolute;
+	left: 88px;
+    top: 120px;
+	
+}
+.place{
+	padding-top: 43px;
+}
+
+}
+

@@ -1,0 +1,72 @@
+
+<div class="container-fluid color">
+<div class="row " >
+  <div class="col-md-12 relate ">
+      
+    <h2 class="style">Question {{current.title}}</h2>
+    <p  class="para" >{{current.description}}</p>
+    <div class="col-md-12 " class="any">    
+      <button  class="btn success">Feature Driven Development (FDD)</button>&nbsp;&nbsp;&nbsp;&nbsp;
+    <button  style=" font-weight: 600;" class="btn success" >Feature Driven Development (FDD)</button><br><br>
+    <button  style=" font-weight: 600;" class="btn success" >Feature Driven Development (FDD)</button>&nbsp;&nbsp;&nbsp;&nbsp;
+    <button style=" font-weight: 600;" class="btn success">Feature Driven Development (FDD)</button>
+
+    <button  (click)="showLess()"  class="btn btn-primary des"  >
+        Previous
+      </button>
+    <button (click)="showMore()" class="btn btn-primary des-one"    >
+        Next
+      </button>
+      <button *ngIf="current.title==5" class="btn btn-primary des-two" data-toggle="modal" data-target="#myModal"   >
+          submit
+        </button>
+      <div class="progress wagon" >
+          <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+    </div>
+
+
+      
+  </div>
+  
+</div>
+</div>
+
+<div class="modal mx-auto" id="myModal" style="background: rgba(0,0,0,0.3);z-index: 9999;">
+  <div class="animated zoomIn modal-dialog " style="max-width: 680px;margin-top: 125px;">
+      <div style="background:#fff;"  class="modal-content text-center">
+          <div class="modal-header">
+              <h4 class="text-center"><strong>Result</strong></h4>
+
+              <!-- <span style="position:absolute;right: 10px;top: 10px;cursor: pointer;" class="close" data-dismiss="modal"  aria-label="Close"><i class="fas fa-times-circle"></i></span> -->
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+          <div class="modal-body" style="    padding: 20px 15px 0;">
+              <div class="row">
+              <p style="    font-weight: 500;
+              " class="text-center">Congratulations! You have completed the test. To get Detailed Report and a 15-Day membership of Empass for Free, enter your Email below.</p>
+                
+                  <div class="col-md-12" style="padding: 20px 50px;"> 
+                    <form class="form-inline">
+                      <div class="form-group mx-sm-3 mb-2">
+                        <label for="inputPassword2" class="sr-only">Your Name</label>
+                        <input type="your Name" class="form-control" id="text" placeholder="Your Name">
+                      </div>
+                    <div class="form-group mx-sm-3 mb-2">
+                      <label for="inputPassword2" class="sr-only">Your Email</label>
+                      <input type="Your Email" class="form-control" id="text" placeholder="Your Email">
+                    </div>
+                      <button class="btn text-white" id="submit" >Submit</button>
+                      
+                  
+                  </form>
+                      <h6 class="text-center place" style="cursor: pointer; margin: 12px 0 8px;"  data-dismiss="modal">By clicking 'Submit' you agree to our<span class="orange"> Privacy Policy </span>& <span class="orange">Terms of Service </span></h6>           
+                  </div>
+              </div>
+              
+          </div>
+      </div>
+  </div>
+</div>

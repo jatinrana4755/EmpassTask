@@ -1,0 +1,115 @@
+<html>
+<section>
+    <div class="container background  ">
+        <div class="row">
+            <div class="col-md-12 center">
+                <h2 class="heading">Empass Task</h2>
+                <div class="hex-divider-container">
+                    <div class="hex-divider">
+                        <div class="hex-left"></div>
+                        <span class="small">THE LEARNING & ENGAGEMENT PLATFORM OF TOMORROW
+
+                        </span>
+                        <div class="hex-right"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </div>
+</section>
+<div class="container-fluid design ">
+    <div class="row space">
+        <div class="container  ">
+            <div class="row ">
+                <div class="col-md-12 mx-auto">
+                    <div class="row  ">
+                        <div class="col-xs-12 col-sm-4 col-md-3 ">
+                            <div class="detail-icon-container res ">
+                                <div class="detail-icon">
+                                    <img class="detail-icon" src="assets/speed.png" alt="Token stack icon"> </div>
+                            </div>
+                            <div class="specifics small-res">
+                                <p>Measures</p>
+                                <span class="token-sale-highlight">your ability
+
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-3 height">
+                            <div class="detail-icon-container small-res">
+                                <div class="detail-icon">
+                                    <img class="detail-icon" src="assets/analytics.png" alt="ICO amount icon"> </div>
+                            </div>
+                            <div class="specifics ">
+                                <p class="small-res">Predicts</p>
+                                <span class="token-sale-highlight para" >skill improvements
+
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-3 height-one">
+                           <div class="detail-icon-container small-res">
+                                <div class="detail-icon">
+                                    <img class="detail-icon" src="assets/clock.png" alt="Token price icon"> </div>
+                            </div>
+                            <div class="specifics no-border">
+                                <p class="small-res">Time</p>
+                                <span class="token-sale-highlight para-one">compete against yourself
+
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-3 height-two">
+                            <div class="detail-icon-container small-res">
+                                <div class="detail-icon">
+                                    <img class="detail-icon" src="assets/info.png" alt="Token price icon"> </div>
+                            </div>
+                            <div class="last-specifics">
+                                <p class="small-res">Questions</p>
+                                <span class="token-sale-highlight small-res">5 questions
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <div class="round-container">
+
+                <div class="row round-details-container">
+
+
+
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 space-one " *ngFor="let data of allData">
+                        <!-- <div class="trendingCarousel"> -->
+
+                        <div class="round-detail-container zoom " style="margin:10px;" [routerLink]="['/test']">
+                            <div class="top-detail">
+                                <span class="round-title">{{data.name}}</span>
+                                <p>{{data.description}}</p>
+                            </div>
+                            <div class="" style="text-align:center;">
+                                <span class="heading-one" [routerLink]="['/test']">Start Test </span>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+
+</html>
