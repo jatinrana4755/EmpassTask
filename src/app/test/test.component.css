@@ -91,7 +91,7 @@ padding-left: 53px;
 	color:orange;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 420px){
 	.color{
 		background: linear-gradient(45deg, #3665b5 0%, #26a1ff );
 		position: absolute;
@@ -144,7 +144,8 @@ padding-left: 53px;
 	.des-one{
 		top: 428px;
 
-    left: 165px;
+        left: 183px;
+
 		background: linear-gradient(45deg, #3665b5 0%, #26a1ff );    
 		border-radius: 1.4vw;
 		width: 90px;
@@ -179,5 +180,110 @@ padding-left: 53px;
 	padding-top: 43px;
 }
 
+
 }
 
+@media screen and (max-width: 415px){
+	.des{
+		position: absolute;
+		top: 428px;
+
+        right: 187px;
+
+    width: 90px;
+		border-radius: 1.4vw;
+		background: linear-gradient(45deg, #3665b5 0%, #26a1ff );
+	}
+	.des-one{
+		top: 428px;
+
+        left: 183px;
+
+		background: linear-gradient(45deg, #3665b5 0%, #26a1ff );    
+		border-radius: 1.4vw;
+		width: 90px;
+		position: absolute;
+	}.des-two{
+		top: 471px;
+		left: 120px;
+		  background: linear-gradient(45deg, #3665b5 0%, #26a1ff );    
+		  border-radius: 1.4vw;
+		  width:90px;
+		  position: absolute;
+	}
+	.pad{
+		margin-top: 23px;
+	}
+}
+@media screen and (max-width: 375px){
+	.des{
+		position: absolute;
+		top: 475px;
+
+		right: 155px;
+
+
+    width: 90px;
+		border-radius: 1.4vw;
+		background: linear-gradient(45deg, #3665b5 0%, #26a1ff );
+	}
+	.des-one{
+		/* top: 428px; */
+		top: 475px;
+
+
+        left: 183px;
+
+		background: linear-gradient(45deg, #3665b5 0%, #26a1ff );    
+		border-radius: 1.4vw;
+		width: 90px;
+		position: absolute;
+	}.des-two{
+		top: 471px;
+		left: 120px;
+		  background: linear-gradient(45deg, #3665b5 0%, #26a1ff );    
+		  border-radius: 1.4vw;
+		  width:90px;
+		  position: absolute;
+	}
+	.pad{
+		margin-top: 8px;
+	}
+}
+@media screen and (max-width: 375px){
+	.des{
+		position: absolute;
+		/* top: 475px; */
+		top: 443px;
+
+		right: 143px;
+
+
+    width: 90px;
+		border-radius: 1.4vw;
+		background: linear-gradient(45deg, #3665b5 0%, #26a1ff );
+	}
+	.des-one{
+		/* top: 428px; */
+		/* top: 475px; */
+
+		top: 443px;
+
+        left: 183px;
+
+		background: linear-gradient(45deg, #3665b5 0%, #26a1ff );    
+		border-radius: 1.4vw;
+		width: 90px;
+		position: absolute;
+	}.des-two{
+		top: 471px;
+		left: 120px;
+		  background: linear-gradient(45deg, #3665b5 0%, #26a1ff );    
+		  border-radius: 1.4vw;
+		  width:90px;
+		  position: absolute;
+	}
+	.pad{
+		margin-top: 8px;
+	}
+}
