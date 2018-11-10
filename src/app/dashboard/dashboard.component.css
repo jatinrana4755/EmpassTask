@@ -60,6 +60,8 @@ content: '';
 .heading{
 font-size: 25px;
 text-align: center;
+font-weight: bold;
+
 }
 .heading-one{
 	font-size: 18px;
@@ -79,6 +81,7 @@ cursor: pointer;
 .hex-divider-container {
 	text-align: center;
 	margin-bottom: 45px;
+	
 	width: 100%
 }
 
